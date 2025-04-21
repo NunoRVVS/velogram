@@ -265,7 +265,6 @@ export const workoutProgram = {
     },
 }
 
-
 export const exerciseDescriptions = {
     "Just spinining": "Here the aim is just to start off. Keep it cool and easy.",
     "Scapula pushups": "Begin in a high plank position. Keep your arms straight and only move your shoulder blades, bringing them together and apart in a controlled manner, as you lower your body towards the ground, and then raise it back up. Hold a kneeling position if the plank is too challenging.",
