@@ -165,6 +165,19 @@ button.help-icon:hover {
     text-transform: capitalize;
 }
 
+.phase-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem 0;
+  }
+  
+.phase-section {
+margin-bottom: 2rem;
+}
+
 .modal-container {
     position: fixed;
     top: 0;
