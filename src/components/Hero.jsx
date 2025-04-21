@@ -24,23 +24,15 @@ export default function Hero() {
                 <p><b>Load*</b></p>
                 <p>If you have about four to five hours to commit to cycling each week—and just three days a week.</p>
             </div>
-            <small>* This info is based on an average performamce. You should always adjust with your fatigue levels and rest accordingly</small>
-            <h3>The training Plan</h3>
+            <small>* This info is based on an average performamce. You should always adjust with your fatigue levels and rest accordingly.</small>
+        </ul>
+        <h3>The training Plan</h3>
+        <ul>
             <p>This training program is made of <b>2-phases</b> as follows ⬇️</p>
-            <p>Phase 1: <b><i> Tuesday: 1 hour zone 2 &rarr; Thursday: 1.5 hours zone 2 &rarr; Saturday: 2.5-3.5 hours zone 2 (based on how much free time you have available)</i></b></p>
-            <p>Phase 2: 
-                <ul>
-                <b><i> 
-                Tuesday: 10 min: warm up 
-                40 min: zone 3 (where holding conversations is still possible but difficult)  and zone 3.5 (where you can still speak in single sentences)
-                10 min: cool down  &rarr; 
-                Thursday: 10-15 min: warm up
-                40-60 min: zone 3 (where holding conversations is still possible but difficult) and zone 3.5 (where you can still speak in single sentences)
-                10-15 min: cool down &rarr;
-                Saturday: 2.5-4 hour (zone 2) based on how much free time you have available
-                </i></b>
-                </ul>
-            </p>
+            <h6>Phase 1</h6>
+            <p>Getting started in part 1 of Base Phase is simple: All rides should be done in zone 2 for four to eight weeks. Ideally, you’re able to train four to six hours per week. Remember, though, if you’re not riding a ton yet, build up to this much time in the saddle.</p>
+            <h6>Phase 2</h6>
+            <p>In the second part of your base training, you’ll add a bit of intensity, while still staying in the aerobic zones. For four to eight weeks, your goal is to do two slightly harder short rides, plus one long zone 2 ride. Ideally, you’re able to train four to six hours per week.</p>
         </ul>
     </>
   )

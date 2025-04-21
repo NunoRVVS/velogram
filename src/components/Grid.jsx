@@ -6,6 +6,7 @@ import WorkoutCard from './WorkoutCard.jsx'
 export default function Grid() {
   const [savedWorkouts, setSavedWorkouts] = useState(null)
   const [selectedWorkout, setSelectedWorkout] = useState(null)
+  // const [selectedCooldown, setSelectedCooldown] = useState(null)
   //completedWorkout is used to check if the workout is completed or not
   const completedWorkout = Object.keys(savedWorkouts || {}).filter((key) => {
     const entry = savedWorkouts[key]
@@ -53,21 +54,30 @@ export default function Grid() {
           !completedWorkout.includes(`${workoutIndex - 1}`)
           // console.log(workoutIndex, isLocked)
 
-        const type = workoutIndex % 3 === 0 ? 
-          'Push' : 
-          workoutIndex % 3 === 1 ? 
-          'Pull' : 
-          'Legs'
+        // const type = workoutIndex % 3 === 0 ? 
+        //   'Tuesday' : 
+        //   workoutIndex % 3 === 1 ? 
+        //   'Thursday' : 
+        //   'Saturday'
+        const type = ['Tues', 'Thurs', 'Sat'][workoutIndex % 3]
+
         
         const trainingPlan = training_plan[workoutIndex]
-        const dayNum = ((workoutIndex / 8) <= 1) ? '0' + (workoutIndex + 1) : workoutIndex + 1
+        // const dayNum = ((workoutIndex / 8) <= 1) ? '0' + (workoutIndex + 1) : workoutIndex + 1
+        const weekNum = Math.floor(workoutIndex / 3) + 1
+
                      //this is to check if it is the 1st day from the remainder 3
-        const icon = workoutIndex % 3 === 0 ? (<i className='fa-solid fa-dumbbell'></i>)
-                    : ( //this is to check if it is the 2nd day from the remainder 3
-                      workoutIndex % 3 === 1 ? (<i className='fa-solid fa-weight-hanging'></i>)
-                      : (//this is to check if it is the 3rd day from the remainder 3
-                        <i className='fa-solid fa-bolt'></i>)
-                      )
+        // const icon = workoutIndex % 3 === 0 ? (<i className='fa-solid fa-dumbbell'></i>)
+        //             : ( //this is to check if it is the 2nd day from the remainder 3
+        //               workoutIndex % 3 === 1 ? (<i className='fa-solid fa-weight-hanging'></i>)
+        //               : (//this is to check if it is the 3rd day from the remainder 3
+        //                 <i className='fa-solid fa-bolt'></i>)
+        //               )
+        const icon = [
+          <i className='fa-solid fa-dumbbell'></i>,       // Tuesday
+          <i className='fa-solid fa-weight-hanging'></i>, // Thursday
+          <i className='fa-solid fa-bolt'></i>            // Saturday
+        ][workoutIndex % 3]
 
         if(workoutIndex === selectedWorkout) {
           return (
@@ -80,7 +90,7 @@ export default function Grid() {
             type={type}
             workoutIndex={workoutIndex}
             icon={icon}
-            dayNum={dayNum}
+            weekNum={weekNum}
             />
           )
         }
@@ -92,7 +102,7 @@ export default function Grid() {
         }} className={'card plan-card ' + (isLocked ? 'inactive' : '')}
         key={workoutIndex}>
           <div className='plan-card-header'>
-            <p>Day {dayNum}</p>
+            <p>Week { weekNum }</p>
             {isLocked ? 
             (<i className='fa-solid fa-lock'></i>)
             : (icon)}

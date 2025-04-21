@@ -3,24 +3,24 @@ import Modal from "./Modal"
 import { exerciseDescriptions } from "../utils"
 
 export default function WorkouCard(props) {
-  const{ trainingPlan, workoutIndex, type, dayNum, icon, savedWeights, 
+  const{ trainingPlan, workoutIndex, type, weekNum, icon, savedoptions, 
     handleSave, handleComplete } = props
   //this will be a check step where even if the traning plan is not available, it will not break the app
   //this is why we are using optional chaining {}
-  const { warmup, workout } = trainingPlan || {}
+  const { warmup, workout, cooldown } = trainingPlan || {}
 
   const [showExerciseDescription, setShowExerciseDescription]= useState(null)
   // this was commented out because we used useState instead 
   // const showExerciseDescription = { name: 'aadd', description: 'aaasdvdsdd' }
-  const [weights, setWeights] = useState(savedWeights || {})
+  const [options, setoptions] = useState(savedoptions || {})
 
   function handleAddWeight(title, weight) {
     // console.log(title, weight)
     const newObj = {
-      ...weights,
+      ...options,
       [title]: weight
     }
-    setWeights(newObj)
+    setoptions(newObj)
   }
 
   return (
@@ -33,7 +33,7 @@ export default function WorkouCard(props) {
         }} />)}
       <div className="workout-card card">
         <div className="plan-card-header">
-          <p>Day {dayNum}</p>
+          <p>Week {weekNum}</p>
           {icon}
         </div>
         <div className="plan-card-header">
@@ -45,9 +45,9 @@ export default function WorkouCard(props) {
         <div className="exercise-name">
           <h4>Warmup</h4>
         </div>
-        <h6>Sets</h6>
-        <h6>Reps</h6>
-        <h6 className="weight-input">Max Weight</h6>
+        <h6>Duration</h6>
+        <h6>Zone</h6>
+        <h6 className="weight-input">Done</h6>
         {warmup.map((warmupExercise, warmupIndex) => {
           return (
             <React.Fragment key={warmupIndex}>
@@ -62,9 +62,16 @@ export default function WorkouCard(props) {
                   <i className="fa-regular fa-circle-question" />
                 </button>
               </div>
-              <p className="exercise-info">{warmupExercise.sets}</p>
-              <p className="exercise-info">{warmupExercise.reps}</p>
-              <input className="weight-input" placeholder="N/A" disabled />
+              <p className="exercise-info">{warmupExercise.duration} mins</p>
+              <p className="exercise-info">{warmupExercise.zone}</p>
+              <select value={options[warmupExercise.name] || ''} 
+              onChange={(e) => {
+                handleAddWeight(warmupExercise.name, e.target.value)
+              }} className="weight-input">
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
             </React.Fragment>
           )
         })}
@@ -74,9 +81,9 @@ export default function WorkouCard(props) {
         <div className="exercise-name">
           <h4>Workout</h4>
         </div>
-        <h6>Sets</h6>
-        <h6>Reps</h6>
-        <h6 className="weight-input">Max Weight</h6>
+        <h6>Duration</h6>
+        <h6>Zone</h6>
+        <h6 className="weight-input">Done</h6>
         {workout.map((workoutExercise, wIndex) => {
           return (
             <React.Fragment key={wIndex}>
@@ -91,25 +98,69 @@ export default function WorkouCard(props) {
                   <i className="fa-regular fa-circle-question" />
                 </button>
               </div>
-              <p className="exercise-info">{workoutExercise.sets}</p>
-              <p className="exercise-info">{workoutExercise.reps}</p>
-              <input value={weights[workoutExercise.name] || ''} 
+              <p className="exercise-info">{workoutExercise.duration} mins</p>
+              <p className="exercise-info">{workoutExercise.zone}</p>
+              <select value={options[workoutExercise.name] || ''} 
               onChange={(e) => {
                 handleAddWeight(workoutExercise.name, e.target.value)
-              }} className="weight-input" placeholder="14" />
+              }} className="weight-input">
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
             </React.Fragment>
           )
         })}
       </div>
+
+      <div className="workout-grid">
+        <div className="exercise-name">
+          <h4>Cooldown</h4>
+        </div>
+        <h6>Duration</h6>
+        <h6>Zone</h6>
+        <h6 className="weight-input">Done</h6>
+        {cooldown.map((cooldownExercise, cooldownIndex) => {
+          return (
+            <React.Fragment key={cooldownIndex}>
+              <div className="exercise-name">
+                <p>{cooldownIndex + 1}. {cooldownExercise.name}</p>
+                <button onClick={() => {
+                  setShowExerciseDescription({
+                    name: cooldownExercise.name,
+                    description: exerciseDescriptions[cooldownExercise.name]
+                  })
+                }} className="help-icon">
+                  <i className="fa-regular fa-circle-question" />
+                </button>
+              </div>
+              <p className="exercise-info">{cooldownExercise.duration} mins</p>
+              <p className="exercise-info">{cooldownExercise.zone}</p>
+              <select value={options[cooldownExercise.name] || ''} 
+              onChange={(e) => {
+                handleAddWeight(cooldownExercise.name, e.target.value)
+              }} className="weight-input">
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </React.Fragment>
+          )
+        })}
+      </div>
+
       <div className="workout-buttons">
         <button onClick={() => {
           //workoutIndex is not the same as the wIndex in the workout map.
           //this will show the day that we are on
-          handleSave(workoutIndex, { weights })
+          handleSave(workoutIndex, { options })
         }}>Save & Exit</button>
         <button onClick={() => {
-          handleComplete(workoutIndex, { weights })
-        }} disabled={Object.keys(weights).length !== workout.length}>Complete</button>
+          handleComplete(workoutIndex, { options })
+        }} disabled={
+            warmup.some(ex => options[ex.name] !== 'yes') ||
+            workout.some(ex => options[ex.name] !== 'yes') ||
+            cooldown.some(ex => options[ex.name] !== 'yes')}>Complete</button>
       </div>
     </div>
   )

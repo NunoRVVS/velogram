@@ -1,399 +1,273 @@
 export const workoutProgram = {
     0: {  // Push
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell bench press", sets: 3, reps: 10 },
-            { name: "Incline dumbbell press", sets: 3, reps: 10 },
-            { name: "Dumbbell chest flies", sets: 3, reps: 15 },
-            { name: "Cable rope pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Keeping cadence", duration: 50, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end", duration: 10, zone: 2 },
         ]
     },
     1: {  // Pull
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Unilateral dumbbell row", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Keeping cadence", duration: 50, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end", duration: 10, zone: 2 },
         ]
     },
     2: {  // Legs
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
+            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Hip thrust", sets: 3, reps: 10 },
-            { name: "Hamstring curl", sets: 3, reps: 12 },
-            { name: "Leg press calf raises", sets: 3, reps: 15 }
+            { name: "Keeping cadence", duration: 50, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end", duration: 10, zone: 2 },
         ]
     },
-    3: {  // Push
+    3: {  // Legs
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Dumbbell chest flies", sets: 3, reps: 15 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Keeping cadence", duration: 50, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end", duration: 10, zone: 2 },
         ]
     },
-    4: {  // Pull
+    4: {  // Legs
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Dumbbell side raises", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     5: {  // Legs
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Walking lunges", sets: 3, reps: 15 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Hip thrust", sets: 3, reps: 12 },
-            { name: "Leg extension", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    6: {  // Push
+    6: {  // Legs
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell bench press", sets: 3, reps: 10 },
-            { name: "Incline dumbbell press", sets: 3, reps: 10 },
-            { name: "Pushups", sets: 3, reps: 20 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    7: {  // Pull
+    7: {  // Legs
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Unilateral dumbbell row", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     8: {  // Legs
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Unilateral RDLs", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 12 },
-            { name: "Good girls / bad girls", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    9: {  // Push
+    9: {  // Legs
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell bench press", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    10: {  // Pull
+    10: {  // Legs
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Wall bodyweight rows", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Rear delt flies", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     11: {  // Legs
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Calf raises", sets: 3, reps: 12 },
-            { name: "Walking lunges", sets: 3, reps: 15 },
-            { name: "Hamstring curl", sets: 3, reps: 15 },
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    12: {  // Push
+    12: {  // Legs
         warmup: [
-            { name: "Scapula pushups", sets: 2, reps: 25 },
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Incline dumbbell press", sets: 3, reps: 10 },
-            { name: "Dips", sets: 3, reps: 10 },
-            { name: "Dumbbell chest flies", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 },
-            { name: "Cable rope pushdown", sets: 3, reps: 15 },
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    13: {  // Pull
+    13: {  // Legs
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Cable bar shrugs", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     14: {  // Legs
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Hamstring curl", sets: 3, reps: 10 },
-            { name: "Leg extension", sets: 3, reps: 12 },
-            { name: "Calf raises", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    15: {  // Push
+    15: {  // Legs
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Dumbbell chest flies", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    16: {  // Pull
+    16: {  // Legs
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Dumbbell side raises", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     17: {  // Legs
         warmup: [
-            { name: "Bodyweight RDLs", sets: 2, reps: 20 },
-            { name: "Glute bridges", sets: 2, reps: 30 },
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 15 },
-            { name: "Good girls / bad girls", sets: 3, reps: 10 },
-            { name: "Hip thrust", sets: 3, reps: 12 },
-            { name: "Hamstring curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    18: {  // Push
+    18: {  // Legs
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Pushups", sets: 3, reps: 20 },
-            { name: "Barbell bench press", sets: 3, reps: 10 },
-            { name: "Cable chest flies", sets: 3, reps: 20 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    19: {  // Pull
+    19: {  // Legs
         warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Unilateral dumbbell row", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     20: {  // Legs
         warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 12 },
-            { name: "Unilateral RDLs", sets: 3, reps: 10 },
-            { name: "Good girls / bad girls", sets: 3, reps: 10 },
-            { name: "Calf raises", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    21: {  // Push
+    21: {  // Legs
         warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Incline dumbbell press", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    22: {  // Pull
+    22: {  // Legs
         warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Wall bodyweight rows", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Dumbbell side raises", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
     23: {  // Legs
         warmup: [
-            { name: "Bodyweight RDLs", sets: 2, reps: 30 },
-            { name: "Bodyweight  squats", sets: 2, reps: 20 }
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
         workout: [
-            { name: "Romanian deadlifts", sets: 3, reps: 10 },
-            { name: "Goblet squat", sets: 3, reps: 15 },
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Hamstring curl", sets: 3, reps: 12 },
-            { name: "Calf raises", sets: 3, reps: 15 }
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    24: {  // Push
-        warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", sets: 3, reps: 10 },
-            { name: "Cable crossover press", sets: 3, reps: 15 },
-            { name: "Incline dumbbell press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
-        ]
-    },
-    25: {  // Pull
-        warmup: [
-            { name: "Wall bodyweight rows", sets: 2, reps: 25 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
-        ],
-        workout: [
-            { name: "Lat pull down", sets: 3, reps: 10 },
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Unilateral dumbbell row", sets: 3, reps: 10 },
-            { name: "Overhand cable curl", sets: 3, reps: 15 },
-            { name: "Hammer grip dumbbell curl", sets: 3, reps: 15 }
-        ]
-    },
-    26: {  // Legs
-        warmup: [
-            { name: "Bodyweight RDLs", sets: 2, reps: 15 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
-        ],
-        workout: [
-            { name: "Barbell squat", sets: 3, reps: 10 },
-            { name: "Hip thrust", sets: 3, reps: 10 },
-            { name: "Unilateral RDLs", sets: 3, reps: 10 },
-            { name: "Walking lunges", sets: 3, reps: 15 },
-            { name: "Calf raises", sets: 3, reps: 12 },
-        ]
-    },
-    27: {  // Push
-        warmup: [
-            { name: "Around the worlds", sets: 2, reps: 25 },
-            { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", sets: 3, reps: 15 },
-            { name: "Dips", sets: 3, reps: 12 },
-            { name: "Cable crossover press", sets: 3, reps: 10 },
-            { name: "Unilateral cable pushdown", sets: 3, reps: 15 },
-            { name: "Dumbbell skull crushers", sets: 3, reps: 15 }
-        ]
-    },
-    28: {  // Pull
-        warmup: [
-            { name: "leaning rear delt holds", sets: 2, reps: 20 },
-            { name: "Scapula pull ups", sets: 2, reps: 20 }
-        ],
-        workout: [
-            { name: "Cable row", sets: 3, reps: 10 },
-            { name: "Chest supported dumbbell row", sets: 3, reps: 10 },
-            { name: "Rear delt flies", sets: 3, reps: 15 },
-            { name: "Cable bar shrugs", sets: 3, reps: 12 },
-            { name: "Alternating dumbbell curl", sets: 3, reps: 15 }
-        ]
-    },
-    29: {  // Legs
-        warmup: [
-            { name: "Glute bridges", sets: 2, reps: 30 },
-            { name: "Bodyweight squats", sets: 2, reps: 20 }
-        ],
-        workout: [
-            { name: "Leg press", sets: 3, reps: 10 },
-            { name: "Bulgarian split squat", sets: 3, reps: 10 },
-            { name: "Leg extension", sets: 3, reps: 15 },
-            { name: "Hip thrust", sets: 3, reps: 12 },
-            { name: "Leg extension", sets: 3, reps: 15 }
-        ]
-    }
 }
 
 
 export const exerciseDescriptions = {
-    "Around the worlds": "Hold a stick with a double shoulder-width grip. Start with the stick at your hips, then lift it over your head, keeping your arms straight, and lower it behind your back as far down as comfortable. Then slowly reverse the motion to return to the starting position.",
+    "Just spinining": "Here the aim is just to start off. Keep it cool and easy.",
     "Scapula pushups": "Begin in a high plank position. Keep your arms straight and only move your shoulder blades, bringing them together and apart in a controlled manner, as you lower your body towards the ground, and then raise it back up. Hold a kneeling position if the plank is too challenging.",
     "Wall bodyweight rows": "Stand a foot away from a wall, lean back, and with your elbows by your sides and hands pointing forward of your body, press your body off the wall using your elbows while engaging your back muscles.",
     "leaning rear delt holds": "Stand with your back against a wall, elbows at shoulder level, hands to the sky, and thumbs facing your ears. Engage your rear delts to press your back off the wall using your elbows.",
