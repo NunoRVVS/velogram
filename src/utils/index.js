@@ -21,7 +21,7 @@ export const workoutProgram = {
             { name: "About to end", duration: 10, zone: 2 },
         ]
     },
-    2: {  // Legs
+    2: {  
         warmup: [
             { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -32,7 +32,7 @@ export const workoutProgram = {
             { name: "About to end", duration: 10, zone: 2 },
         ]
     },
-    3: {  // Legs
+    3: {  
         warmup: [
             { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -43,7 +43,7 @@ export const workoutProgram = {
             { name: "About to end", duration: 10, zone: 2 },
         ]
     },
-    4: {  // Legs
+    4: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -54,7 +54,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    5: {  // Legs
+    5: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -65,7 +65,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    6: {  // Legs
+    6: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -76,7 +76,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    7: {  // Legs
+    7: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -87,7 +87,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    8: {  // Legs
+    8: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -98,7 +98,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    9: {  // Legs
+    9: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -109,7 +109,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    10: {  // Legs
+    10: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -120,7 +120,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    11: {  // Legs
+    11: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -131,7 +131,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    12: {  // Legs
+    12: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -142,7 +142,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    13: {  // Legs
+    13: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -153,7 +153,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    14: {  // Legs
+    14: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -164,7 +164,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    15: {  // Legs
+    15: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -175,7 +175,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    16: {  // Legs
+    16: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -186,7 +186,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    17: {  // Legs
+    17: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -197,7 +197,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    18: {  // Legs
+    18: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -208,7 +208,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    19: {  // Legs
+    19: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -219,7 +219,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    20: {  // Legs
+    20: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -230,7 +230,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    21: {  // Legs
+    21: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -241,7 +241,7 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    22: {  // Legs
+    22: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],
@@ -252,7 +252,271 @@ export const workoutProgram = {
             { name: "10 min", duration: 10, zone: 2 },
         ]
     },
-    23: {  // Legs
+    23: {  
+        warmup: [
+            { name: "25 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    24: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    25: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    26: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    27: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    28: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    29: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    30: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    31: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    32: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    33: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    34: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    35: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    36: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    37: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    38: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    39: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    40: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    41: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    42: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    43: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    44: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    45: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    },
+    46: {  
+        warmup: [
+            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+        ],
+        workout: [
+            { name: "Barbell bench press", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "10 min", duration: 10, zone: 2 },
+        ]
+    }, 
+    47: {  
         warmup: [
             { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
         ],

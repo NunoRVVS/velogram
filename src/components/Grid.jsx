@@ -12,6 +12,8 @@ export default function Grid() {
     return entry.isComplete
   })
 
+  const isPhase2Unlocked = completedWorkout.includes("23")
+
   useEffect(() => {
     if (!localStorage) return
     let savedData = {}
@@ -35,8 +37,10 @@ export default function Grid() {
   }
 
   function handleComplete(index, data) {
-    const newObj = { ...data }
-    newObj.isComplete = true
+    const newObj = {
+      ...data,
+      isComplete: true
+    }
     handleSave(index, newObj)
   }
 
@@ -44,7 +48,7 @@ export default function Grid() {
     setOpenPhases(prev => ({ ...prev, [phase]: !prev[phase] }))
   }
 
-  const renderWorkoutCards = (start, end) => {
+  const renderWorkoutCards = (start, end, baseWeek = 1) => {
     return Object.keys(training_plan)
       .slice(start, end)
       .map((_, workoutIndexLocal) => {
@@ -53,19 +57,22 @@ export default function Grid() {
           ? false
           : !completedWorkout.includes(`${workoutIndex - 1}`)
 
-        const type = ['Tuesday', 'Thursday', 'Saturday'][workoutIndex % 3]
-        const weekNum = Math.floor(workoutIndex / 3) + 1
+        const isCompleted = savedWorkouts?.[workoutIndex]?.isComplete || false
+        const type = ['Tues', 'Thurs', 'Sat'][workoutIndex % 3]
+        const weekNum = baseWeek + Math.floor((workoutIndex - start) / 3)
+
         const icon = [
-          <i className='fa-solid fa-dumbbell'></i>,
-          <i className='fa-solid fa-weight-hanging'></i>,
-          <i className='fa-solid fa-bolt'></i>
+          <i className='fa-solid fa-person-biking'></i>,
+          <i className='fa-solid fa-bolt'></i>,
+          <i className='fa-solid fa-heart-pulse'></i>
         ][workoutIndex % 3]
+
         const trainingPlan = training_plan[workoutIndex]
 
         if (workoutIndex === selectedWorkout) {
           return (
             <WorkoutCard
-              savedWeights={savedWorkouts?.[workoutIndex]?.weights}
+              savedoptions={savedWorkouts?.[workoutIndex]?.options}
               handleSave={handleSave}
               handleComplete={handleComplete}
               key={workoutIndex}
@@ -74,6 +81,7 @@ export default function Grid() {
               workoutIndex={workoutIndex}
               icon={icon}
               weekNum={weekNum}
+              isCompleted={isCompleted}
             />
           )
         }
@@ -101,26 +109,34 @@ export default function Grid() {
 
   return (
     <div>
-      {/* Phase 1 */}
       <div className='phase-section'>
         <button className='phase-toggle' onClick={() => togglePhase('phase1')}>
           {openPhases.phase1 ? '▼' : '▶'} Phase 1
         </button>
         {openPhases.phase1 && (
           <div className='training-plan-grid'>
-            {renderWorkoutCards(0, 24)}
+            {renderWorkoutCards(0, 24, 1)}
           </div>
         )}
       </div>
 
-      {/* Phase 2 */}
       <div className='phase-section'>
-        <button className='phase-toggle' onClick={() => togglePhase('phase2')}>
+        <button
+          className='phase-toggle'
+          onClick={() => {
+            if (!isPhase2Unlocked) return
+            togglePhase('phase2')
+          }}
+          disabled={!isPhase2Unlocked}
+        >
           {openPhases.phase2 ? '▼' : '▶'} Phase 2
+          {!isPhase2Unlocked && (
+            <span style={{ marginLeft: '10px', color: 'gray' }}>(Locked)</span>
+          )}
         </button>
-        {openPhases.phase2 && (
+        {openPhases.phase2 && isPhase2Unlocked && (
           <div className='training-plan-grid'>
-            {renderWorkoutCards(24, training_plan.length)}
+            {renderWorkoutCards(24, 48, 9)}
           </div>
         )}
       </div>
