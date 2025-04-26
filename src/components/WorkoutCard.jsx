@@ -20,9 +20,9 @@ export default function WorkouCard(props) {
   const getKey = (section, name) => `${section}_${name}`
 
   const canComplete =
-    warmup.every(ex => options[getKey('warmup', ex.name)] === 'yes') &&
-    workout.every(ex => options[getKey('workout', ex.name)] === 'yes') &&
-    cooldown.every(ex => options[getKey('cooldown', ex.name)] === 'yes')
+    warmup.every(exSession => options[getKey('warmup', exSession.name)] === 'yes') &&
+    workout.every(exSession => options[getKey('workout', exSession.name)] === 'yes') &&
+    cooldown.every(exSession => options[getKey('cooldown', exSession.name)] === 'yes')
 
   return (
     <div className="workout-container">
@@ -41,8 +41,8 @@ export default function WorkouCard(props) {
         </div>
       </div>
 
-      {['warmup', 'workout', 'cooldown'].map((section, idx) => (
-        <div className="workout-grid" key={idx}>
+      {['warmup', 'workout', 'cooldown'].map((section, idxSession) => (
+        <div className="workout-grid" key={idxSession}>
           <div className="exercise-name">
             <h4>{section.charAt(0).toUpperCase() + section.slice(1)}</h4>
           </div>

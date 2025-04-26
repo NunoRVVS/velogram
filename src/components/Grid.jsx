@@ -11,8 +11,8 @@ export default function Grid() {
     const entry = savedWorkouts[key]
     return entry.isComplete
   })
-
-  const isPhase2Unlocked = completedWorkout.includes("23")
+  //this part is to check if the phase 2 is unlocked or not
+  const isPhase2Unlocked = completedWorkout.includes("23");
 
   useEffect(() => {
     if (!localStorage) return

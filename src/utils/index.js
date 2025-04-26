@@ -1,577 +1,569 @@
 export const workoutProgram = {
-    0: {  // Push
+    0: {  // Week 1
         warmup: [
-            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    1: {  // Week 1
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 60, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    2: {  // Week 1
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 60, zone: 2 },
+        ],
+        cooldown: [
+            { name: "First week is over", duration: 10, zone: 2 },
+        ]
+    },
+    3: {  // Week 2
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    4: {  // Week 2
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    5: {  // Week 2
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "End of second week", duration: 10, zone: 2 },
+        ]
+    },
+    6: {  // Week 3
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    7: {  // Week 3
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    8: {  // Week 3
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "Time flies. 3rd week done!", duration: 10, zone: 2 },
+        ]
+    },
+    9: {  // Week 4
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    10: {  // Week 4
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "About to end!", duration: 10, zone: 2 },
+        ]
+    },
+    11: {  // Week 4  -----------mid phase 1------------
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 3 },
+        ],
+        cooldown: [
+            { name: "Half way through the 1st phase!", duration: 10, zone: 2 },
+        ]
+    },
+    12: {  // Week 5
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
+        ],
+        workout: [
+            { name: "Keeping cadence", duration: 40, zone: 2 },
+        ],
+        cooldown: [
+            { name: "Cool off and do not forget to rest", duration: 10, zone: 2 },
+        ]
+    },
+    13: {  // Week 5
+        warmup: [
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
             { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "About to end", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    1: {  // Pull
+    14: {  // Week 5
         warmup: [
-            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
             { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "About to end", duration: 10, zone: 2 },
+            { name: "Another week done!", duration: 10, zone: 2 },
         ]
     },
-    2: {  
+    15: {  // Week 6
         warmup: [
-            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
             { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "About to end", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    3: {  
+    16: {  // Week 6
         warmup: [
-            { name: "Just spinining", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
             { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "About to end", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    4: {  
+    17: {  // Week 6
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Just pace down and relax!", duration: 10, zone: 2 },
         ]
     },
-    5: {  
+    18: {  // Week 7
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    6: {  
+    19: {  // Week 7
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    7: {  
+    20: {   // Week 7
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Just pace down and relax!", duration: 10, zone: 2 },
         ]
     },
-    8: {  
+    21: {  // Week 8
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    9: {  
+    22: {  // Week 8
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 10, zone: 2 },
         ]
     },
-    10: {  
+    23: {  // Week 8
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 50, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "You got it. Time to relax!", duration: 10, zone: 2 },
         ]
     },
-    11: {  
+    24: {  // Week 9
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Welcome back!", duration: 10, zone: 2 },
         ]
     },
-    12: {  
+    25: {  // Week 9
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    13: {  
+    26: {  // Week 9
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "This week is done!", duration: 10, zone: 2 },
         ]
     },
-    14: {  
+    27: {  // Week 10 
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence", duration: 40, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Mushing milestones!", duration: 10, zone: 2 },
         ]
     },
-    15: {  
+    28: {  // Week 10
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    16: {  
+    29: {  // Week 10
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Another week dusted!", duration: 10, zone: 2 },
         ]
     },
-    17: {  
+    30: {  // Week 11
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    18: {  
+    31: { // Week 11 
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Welcome back!", duration: 10, zone: 2 },
         ]
     },
-    19: {  
+    32: {  // Week 11
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "This is that time again!", duration: 10, zone: 2 },
         ]
     },
-    20: {  
+    33: {  // Week 12
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Welcome back!", duration: 10, zone: 2 },
         ]
     },
-    21: {  
+    34: {  // Week 12
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    22: {  
+    35: {  // Week 12
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Feeling that you are done!", duration: 10, zone: 2 },
         ]
     },
-    23: {  
+    36: {  // Week 13
         warmup: [
-            { name: "25 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Welcome back!", duration: 10, zone: 2 },
         ]
     },
-    24: {  
+    37: {  // Week 13
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    25: {  
+    38: {  // Week 13
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "This week is done!", duration: 10, zone: 2 },
         ]
     },
-    26: {  
+    39: {  // Week 14
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    27: {  
+    40: {  // Week 14
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "This week is done!", duration: 10, zone: 2 },
         ]
     },
-    28: {  
+    41: {  // Week 14
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "End of the week!", duration: 10, zone: 2 },
         ]
     },
-    29: {  
+    42: {  // Week 15
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Welcome back!", duration: 10, zone: 2 },
         ]
     },
-    30: {  
+    43: {  // Week 15
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    31: {  
+    44: {  // Week 15
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "This week is done!", duration: 10, zone: 2 },
         ]
     },
-    32: {  
+    45: {  // Week 16
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 15, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "About to end!", duration: 15, zone: 2 },
         ]
     },
-    33: {  
+    46: {  // Week 16
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    34: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    35: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    36: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    37: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    38: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    39: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    40: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    41: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    42: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    43: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    44: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    45: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
-        ]
-    },
-    46: {  
-        warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
-        ],
-        workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
-        ],
-        cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "Welcome back!", duration: 10, zone: 2 },
         ]
     }, 
-    47: {  
+    47: {  // Week 16
         warmup: [
-            { name: "10 min", duration: 10, zone: 2 },            // { name: "Scapula pushups", sets: 2, reps: 25 }
+            { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Barbell bench press", duration: 40, zone: 3 },
+            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "10 min", duration: 10, zone: 2 },
+            { name: "This week is done!", duration: 10, zone: 2 },
         ]
     },
 }
 
 export const exerciseDescriptions = {
     "Just spinining": "Here the aim is just to start off. Keep it cool and easy.",
-    "Scapula pushups": "Begin in a high plank position. Keep your arms straight and only move your shoulder blades, bringing them together and apart in a controlled manner, as you lower your body towards the ground, and then raise it back up. Hold a kneeling position if the plank is too challenging.",
-    "Wall bodyweight rows": "Stand a foot away from a wall, lean back, and with your elbows by your sides and hands pointing forward of your body, press your body off the wall using your elbows while engaging your back muscles.",
-    "leaning rear delt holds": "Stand with your back against a wall, elbows at shoulder level, hands to the sky, and thumbs facing your ears. Engage your rear delts to press your back off the wall using your elbows.",
-    "Scapula pull ups": "Hang from a pull-up bar or lat pull down machine with straight arms. Without bending your elbows, engage your shoulder blades to lift your body slightly, then release back to hanging position.",
-    "Glute bridges": "Lie on your back with knees bent and feet on the ground. Lift your hips by contracting your glutes, creating a straight line from shoulders to knees.",
-    "Bodyweight squats": "Perform a regular squat, but pause for 2-3 seconds at the bottom before standing back up. Feet shoulder width apart.",
-    "Bodyweight RDLs": "Stand on one leg, hinge at the hips to lower your torso to horizontal while extending the other leg behind you, and return to a standing position by engaging your hamstrings and glutes. Microbend the leg still on the ground as you complete the exercise.",
+    "Keeping cadence": "Here the aim will be consistent cadence. Keep it steady and easy.",
+    "About to end!": "At this stage just relax and cool down. You are almost done. Pat yourself on the back.",
+    
+    "First week is over": "This is the end of the week. You have done well. Keep it up.",
+    
+    "End of second week": "Performance is improving. Keep it up.",
+    
+    "Time flies. 3rd week done!": "Another good effort. You are feeling stronger.",
 
-    "Barbell bench press": "Lie on a flat bench and lower a barbell to your chest, flaring your elbows between a 45 - 60 degree angle, then press it back up using your chest muscles. Hands should be 1.5 times your shoulder width apart.",
-    "Incline dumbbell press": "Lie on an incline bench and press dumbbells upwards, focusing on the upper part of your chest.",
-    "Dumbbell chest flies": "Lie on a flat bench with dumbbells held towards the sky. Then slowly lower them to either side, open your arms wide as if you were about to hug a large tree, and then bring them together over your chest in a hugging motion.",
-    "Cable crossover press": "Using a cable machine with handles, press the cables together in front of you, slight crossing your hands over one-another at the end of the motion, engaging your chest muscles.",
-    "Cable chest flies": "Stand between two cable attachments, facing forwards of the machines, and perform chest flies by bringing the handles together in front of your chest, focusing on the squeeze.",
-    "Pushups": "Start in a plank position with your hands slightly wider than shoulder-width, lower your chest to the ground, elbows flaring to a 45 - 60 degree angle, and push back up.",
-    "Dips": "Using parallel bars, lower your body by bending your elbows and push back up, focusing on triceps and chest.",
-    "Cable rope pushdown": "Using a cable machine with a rope attachment, extend your arms downward to straighten your elbows, targeting your triceps.",
-    "Dumbbell skull crushers": "Lie on a bench, holding dumbbells with arms extended. Bend your elbows to lower the weights toward your forehead, then extend your arms back up.",
-    "Unilateral cable pushdown": "Using a cable machine, push the handle downwards with one hand, keeping your elbow close to your body and extending the tricep fully.",
+    "Half way through the 1st phase!": "😓 Amazing milstone here. You are doing great. Now have a little treat 🍕!",
+    
+    "Cool off and do not forget to rest": "At this stage keep in mind that you have done a lot and now is only onwards.",
+    
+    "Another week done!": "😊 Amazing. You are doing great.",
+    
+    "Just pace down and relax!": "Try to rest a bit. The miles are adding up. 🚴",
 
-    "Lat pull down": "Sit at a lat pulldown machine, pull the bar down to your chest while engaging your lats, and return to the starting position.",
-    "Cable row": "Sit at a cable machine and pull the handle towards your torso while keeping your back straight, focusing on squeezing your shoulder blades together.",
-    "Unilateral dumbbell row": "Place one hand on a bench, hinge at the hips, and row a dumbbell with the other hand by pulling it towards your hip, focusing on your lats.",
-    "Chest supported dumbbell row": "Lie face down on an incline bench and perform rows with dumbbells, focusing on squeezing your shoulder blades together.",
-    "Dumbbell side raises": "Hold dumbbells at your sides and raise them outward until your arms are parallel to the floor, targeting your shoulders.",
-    "Rear delt flies": "Bend over with a slight bend in your knees, raise dumbbells (or cables) out to the sides in a flying motion, targeting your rear deltoids.",
-    "Cable bar shrugs": "Using a cable machine, shrug your shoulders upwards while keeping your arms straight, targeting your traps.",
-    "Overhand cable curl": "Using a cable machine with a bar attachment, perform bicep curls with an overhand grip, targeting your forearms and biceps.",
-    "Hammer grip dumbbell curl": "Hold dumbbells with a neutral grip (palms facing inward) and perform bicep curls by bending your elbows.",
-    "Alternating dumbbell curl": "Hold dumbbells in both hands and alternate curling one dumbbell at a time, focusing on bicep contraction.",
+    "You got it. Time to relax!": "First phase is over and dusted. You are doing great. Now have a little treat 🍕 and rest!",
 
-    "Barbell squat": "Place a barbell across your upper back, squat down by bending your hips and knees, and then stand back up, keeping your chest lifted.",
-    "Leg press": "Sit on a leg press machine and push the platform away from your body by extending your legs, then return to the starting position.",
-    "Goblet squat": "Hold a dumbbell or kettlebell close to your chest and perform a squat, keeping your torso upright.",
-    "Hip thrust": "Rest your upper back on a bench, place a barbell or weight over your hips, and push your hips upwards by contracting your glutes.",
-    "Bulgarian split squat": "Place one foot on a bench behind you and squat with your front leg, keeping your torso upright.",
-    "Unilateral RDLs": "Hold a dumbbell in one hand, stand on the opposite leg, and hinge at the hips to lower the dumbbell toward the ground. Return to standing by engaging your hamstrings.",
-    "Romanian deadlifts": "Hold a barbell or dumbbells with straight arms, hinge at the hips to lower the weights while keeping your back straight, then return to a standing position.",
-    "Walking lunges": "Take a step forward and lower into a lunge, then step forward with the other leg and repeat, walking in a straight line.",
-    "Leg extension": "Sit on a leg extension machine and extend your legs until they are straight, focusing on your quadriceps.",
-    "Hamstring curl": "Using a leg curl machine, curl your legs toward your glutes to engage the hamstrings, then return to the starting position.",
-    "Calf raises": "Stand on the Smith machine with the bar on your shoulders, or in a leg press with your legs almost straight, raise your heels to engage your calves, and then lower them back down.",
-    "Good girls / bad girls": "Using the adductor/abductor machine, move your legs together (adductor) or apart (abductor) to target the inner and outer thighs.",
+    "Keeping cadence but now at higher speed": "We are aiming to zone 3 (where holding conversations is still possible but difficult) and zone 3.5 (where you can still speak in single sentences)",
+
+    "Welcome back!": "New phase starting now! Keep in mind that you have done a lot and now your are stronger.",
+
+    "Improve cadence for longer": "Again aiming to zone 3 (where holding conversations is still possible but difficult) and zone 3.5 (where you can still speak in single sentences).",
+       
+    "Mushing milestones!": "Feeling stronger? Just rest and keep calm for now. Next day will be nice.",
+
+    "Another week dusted!": "You are doing great. Just keep it up and rest a bit.",
+
+    "This is that time again!": "By this time you might be getting used to the training. Just keep it up and to rest.",
+
+    "Feeling that you are done!": "You might have some flies on your helmet by this time. Just give it a clean and rest a bit.",
+
+    "End of the week!": "Almost done with the finale phase. You will be a onster after it. 👍"
+    
 }
-
