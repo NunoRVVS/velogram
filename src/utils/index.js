@@ -290,7 +290,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturdays are free rides now on", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "This week is done!", duration: 10, zone: 2 },
@@ -323,7 +323,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "Another week dusted!", duration: 10, zone: 2 },
@@ -348,7 +348,7 @@ export const workoutProgram = {
             { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "Welcome back!", duration: 10, zone: 2 },
+            { name: "Mushing milestones!", duration: 10, zone: 2 },
         ]
     },
     32: {  // Week 11
@@ -356,7 +356,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "This is that time again!", duration: 10, zone: 2 },
@@ -370,7 +370,7 @@ export const workoutProgram = {
             { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "Welcome back!", duration: 10, zone: 2 },
+            { name: "Mushing milestones!", duration: 10, zone: 2 },
         ]
     },
     34: {  // Week 12
@@ -389,7 +389,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "Feeling that you are done!", duration: 10, zone: 2 },
@@ -403,7 +403,7 @@ export const workoutProgram = {
             { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "Welcome back!", duration: 10, zone: 2 },
+            { name: "Mushing milestones!", duration: 10, zone: 2 },
         ]
     },
     37: {  // Week 13
@@ -422,7 +422,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "This week is done!", duration: 10, zone: 2 },
@@ -444,7 +444,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "This week is done!", duration: 10, zone: 2 },
@@ -455,7 +455,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "End of the week!", duration: 10, zone: 2 },
@@ -469,7 +469,7 @@ export const workoutProgram = {
             { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "Welcome back!", duration: 10, zone: 2 },
+            { name: "Mushing milestones!", duration: 10, zone: 2 },
         ]
     },
     43: {  // Week 15
@@ -488,7 +488,7 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
             { name: "This week is done!", duration: 10, zone: 2 },
@@ -502,7 +502,7 @@ export const workoutProgram = {
             { name: "Improve cadence for longer", duration: 60, zone: 3 },
         ],
         cooldown: [
-            { name: "About to end!", duration: 15, zone: 2 },
+            { name: "This is it, last week!", duration: 15, zone: 2 },
         ]
     },
     46: {  // Week 16
@@ -513,7 +513,7 @@ export const workoutProgram = {
             { name: "Keeping cadence but now at higher speed", duration: 40, zone: 3 },
         ],
         cooldown: [
-            { name: "Welcome back!", duration: 10, zone: 2 },
+            { name: "Mushing milestones!", duration: 10, zone: 2 },
         ]
     }, 
     47: {  // Week 16
@@ -521,10 +521,10 @@ export const workoutProgram = {
             { name: "Just spinining", duration: 10, zone: 2 },            //this will be streamelined with smaller changes on the 2nd phase
         ],
         workout: [
-            { name: "Saturdays are free rides now", duration: 150, zone: 2 },
+            { name: "Saturday free ride", duration: 150, zone: 2 },
         ],
         cooldown: [
-            { name: "This week is done!", duration: 10, zone: 2 },
+            { name: "This is it, the last day!", duration: 10, zone: 2 },
         ]
     },
 }
@@ -556,7 +556,11 @@ export const exerciseDescriptions = {
 
     "Improve cadence for longer": "Again aiming to zone 3 (where holding conversations is still possible but difficult) and zone 3.5 (where you can still speak in single sentences).",
        
+    "Saturdays are free rides now on": "You can do whatever you want. Just keep it easy and fun. 🚴",
+
     "Mushing milestones!": "Feeling stronger? Just rest and keep calm for now. Next day will be nice.",
+
+    "Saturday free ride": "Keep it steady and easy. If you want you can go for a 4 hours ride. Lesson to you body and do not overdo it. 🚴",
 
     "Another week dusted!": "You are doing great. Just keep it up and rest a bit.",
 
@@ -564,6 +568,9 @@ export const exerciseDescriptions = {
 
     "Feeling that you are done!": "You might have some flies on your helmet by this time. Just give it a clean and rest a bit.",
 
-    "End of the week!": "Almost done with the finale phase. You will be a onster after it. 👍"
-    
+    "End of the week!": "Almost done with the finale phase. You will be a onster after it. 👍",
+
+    "This is it, last week!": "On this week just keep it easy. Lot of miles have been don. You should be proud of yourself 🎉🎉",
+
+    "This is it, the last day!": "No matter what if you are reading this you are worthy. You have done a lot and now your are stronger. Go for that 🍕! Don't forget to always find different ways to improve 🚴🚴🚴",    
 }
