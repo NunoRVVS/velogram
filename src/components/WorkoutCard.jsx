@@ -48,7 +48,7 @@ export default function WorkouCard(props) {
           </div>
           <h6>Duration</h6>
           <h6>Zone</h6>
-          <h6 className="weight-input">Done</h6>
+          <h6 className="option-input">Done</h6>
           {trainingPlan[section].map((exercise, i) => {
             const key = getKey(section, exercise.name)
             return (
@@ -70,7 +70,7 @@ export default function WorkouCard(props) {
                   disabled={isCompleted}
                   value={options[key] || ''}
                   onChange={(e) => handleAddOption(key, e.target.value)}
-                  className="weight-input"
+                  className="option-input"
                 >
                   <option value="">Select</option>
                   <option value="yes">Yes</option>

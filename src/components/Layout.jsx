@@ -3,7 +3,7 @@ export default function Layout(props) {
   const header = (
     <header>
       <h1 className="text-gradient">Velogram</h1>
-      <p><strong>Your 3-Day-a-Week Beginner Base Training Plan</strong></p>
+      <p><strong>Your 3-Day-a-Week Cycling Beginner Base Training Plan</strong></p>
     </header>
   ) 
 

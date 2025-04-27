@@ -73,7 +73,7 @@
         --background-accent: '';
         --background-compliment: '';
         --background-gradient: '';
-        --background-muted: #1a1e32;
+        --background-muted: #353c5d;
 
         --color-primary: white;
         --color-secondary: '';
@@ -91,8 +91,8 @@
         --color-info: '';
         --color-highlight: #fef9c3;
 
-        --gradient-start: #9580ff;
-        --gradient-end: #80ffea;
+        --gradient-start: orange;
+        --gradient-end: #ff80c0;
 
         --border-primary: #29325b;
         --border-secondary: #323c71;
@@ -132,7 +132,7 @@ body {
 .text-gradient {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-image: linear-gradient(135deg, var(--gradient-start) 0, var(--gradient-end) 100%);
+    background-image: linear-gradient(150deg, var(--gradient-start) 0, var(--gradient-end) 100%);
     background-size: 100%;
     -webkit-box-decoration-break: clone;
 }
