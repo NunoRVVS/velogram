@@ -1,2 +1,2 @@
 # velogram
- The 30 Simple Workouts Program | Built with React Js | FantaCSS
+ Your 3-Day-a-Week Cycling Beginner Base Training Plan | Built with React Js | FantaCSS
